@@ -8,7 +8,7 @@ function App() {
   const [login, setLogin] = useState(false);
   const [data, setData] = useState({});
   const [picture, setPicture] = useState('');
-
+  console.log("Ok")
   const responseFacebook = (response) => {
     console.log(response);
     setData(response);
